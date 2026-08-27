@@ -1,0 +1,32 @@
+{
+  "name": "barcelo-amonestaciones",
+  "version": "2.0.0",
+  "description": "Control de amonestaciones y regimen disciplinario para Operadora de Servicios Varios, S.A. (Barcelo Guatemala City). Next.js + React + TypeScript, base de datos Supabase (PostgreSQL).",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "bcryptjs": "^2.4.3",
+    "docx": "^9.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.8.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
